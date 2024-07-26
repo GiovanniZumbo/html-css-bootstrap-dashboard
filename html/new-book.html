@@ -28,7 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Catalogo Libri</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Catalogo Libri</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Anagrafica Utenti</a>
@@ -50,8 +50,11 @@
             <div class="container my-4">
                 <div class="row">
                     <div class="col">
+
                         <h1>Nuovo Libro</h1>
-                        <div class="row">
+
+                        <!-- Form -->
+                        <form class="row">
                             <div class="col-6">
                                 <div class="mb-3">
                                     <label for="author-name" class="form-label fw-medium">Nome Autore</label>
@@ -93,7 +96,24 @@
                                     placeholder="Inserisci il codice ISBN#">
                             </div>
 
-                        </div>
+                        </form>
+
+                        <hr class="py-3">
+
+                        <form>
+                            <div class="mb-3">
+                                <label for="notes" class="form-label fw-medium">Note</label>
+                                <textarea class="form-control" id="notes" rows="5"
+                                    placeholder="Inserisci eventuali note sul libro"></textarea>
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Disponibile anche in
+                                    digitale</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Aggiungi libro</button>
+                        </form>
                     </div>
                 </div>
             </div>
