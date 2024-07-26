@@ -1,20 +1,30 @@
 /* Css reset */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 /* Generics */
-
+/* 
 body {
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
-}
+} */
 
 /* Utilities */
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+/* .container {
+ max-width: 1200px;
+    margin: 0 auto; d
+} 
+*/
+
+#logo {
+    max-width: 70px;
+    margin-right: 15px;
+}
+
+.form-control ::placeholder {
+    color: black;
 }
