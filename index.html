@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <title>Document</title>
+    <!-- BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- BS ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -56,8 +59,87 @@
                     </div>
 
                 </div>
-                <div class="row">
-                    <div class="col-12 col-lg-10"></div>
+                <div class="row py-4">
+                    <div class="col-12 col-lg-10">
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Titolo</th>
+                                    <th class="d-none d-md-block" scope="col">Data Prestito</th>
+                                    <th scope="col"> Stato </th>
+                                    <th scope="col"> Azioni</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>I pilastri della Terra </td>
+                                    <td class="d-none d-md-table-cell">-</td>
+                                    <td><span class="badge text-bg-success"> Disponibile</span></td>
+                                    <td><button type="button" class="btn btn-outline-secondary"><i
+                                                class="bi bi-pencil-fill"></i></button>
+                                        <button type="button" class="btn btn-outline-secondary">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> I promessi sposi</td>
+                                    <td class="d-none d-md-table-cell">-</td>
+                                    <td><span class="badge text-bg-success"> Disponibile</span></td>
+                                    <td><button type="button" class="btn btn-outline-secondary"><i
+                                                class="bi bi-pencil-fill"></i></button>
+                                        <button type="button" class="btn btn-outline-secondary">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Il signore degli anelli</td>
+                                    <td class="d-none d-md-table-cell">26/07/2024</td>
+                                    <td><span class="badge text-bg-warning text-white"> In prestito</span></td>
+                                    <td><button type="button" class="btn btn-outline-secondary"><i
+                                                class="bi bi-pencil-fill"></i></button>
+                                        <button type="button" class="btn btn-outline-secondary">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Harry Potter e la pietra filosofale</td>
+                                    <td class="d-none d-md-table-cell">-</td>
+                                    <td><span class="badge text-bg-success"> Disponibile</span></td>
+                                    <td><button type="button" class="btn btn-outline-secondary"><i
+                                                class="bi bi-pencil-fill"></i></button>
+                                        <button type="button" class="btn btn-outline-secondary">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Il codice Da Vinci </td>
+                                    <td class="d-none d-md-table-cell">-</td>
+                                    <td><span class="badge text-bg-danger">Non disponibile</span></td>
+                                    <td><button type="button" class="btn btn-outline-secondary"><i
+                                                class="bi bi-pencil-fill"></i></button>
+                                        <button type="button" class="btn btn-outline-secondary">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Le cronache di Narnia: il leone, la strega e l'armadio</td>
+                                    <td class="d-none d-md-table-cell">-</td>
+                                    <td><span class="badge text-bg-warning text-white"> In prestito</span></td>
+                                    <td><button type="button" class="btn btn-outline-secondary"><i
+                                                class="bi bi-pencil-fill"></i></button>
+                                        <button type="button" class="btn btn-outline-secondary">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <div class="col-12 col-lg-2"></div>
                 </div>
             </div>
